@@ -4,23 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11a74e62-0816-42dc-8050-10bafdf96941" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructures/tree/BinarySearchTree.java" afterDir="false" />
+    <list default="true" id="11a74e62-0816-42dc-8050-10bafdf96941" name="Changes" comment="I Cover the concepts and implementation of BinarySearchTree, LinkedList, DoublyLinkedList.">
+      <change afterPath="$PROJECT_DIR$/src/datastructures/traficlight/RedLight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -55,17 +54,20 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="datastructures.traficlight" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Ganesh babu\AppData\Roaming\JetBrains\IdeaIC2023.1\scratches\JL" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.datastructures.doublelinkedlist.Main">
+  <component name="RunManager" selected="Application.datastructures.zoho.railway.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="datastructures.linklist.Main" />
+      <option name="MAIN_CLASS_NAME" value="datastructures.zoho.Main" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="datastructures.linklist.*" />
+          <option name="PATTERN" value="datastructures.zoho.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="datastructures.binarysearch.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="datastructures.binarysearch.Main" />
+    <configuration name="collectors.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collectors.Main" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="datastructures.binarysearch.*" />
+          <option name="PATTERN" value="collectors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +101,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="datastructures.tree.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="datastructures.tree.Main" />
+    <configuration name="datastructures.traficlight.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="datastructures.traficlight.Main" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="datastructures.tree.*" />
+          <option name="PATTERN" value="datastructures.traficlight.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="datastructures.zoho.railway.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="datastructures.zoho.railway.Main" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="datastructures.zoho.railway.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,10 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.datastructures.doublelinkedlist.Main" />
-        <item itemvalue="Application.datastructures.binarysearch.Main" />
-        <item itemvalue="Application.datastructures.tree.Main" />
+        <item itemvalue="Application.datastructures.zoho.railway.Main" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.datastructures.traficlight.Main" />
+        <item itemvalue="Application.collectors.Main" />
+        <item itemvalue="Application.datastructures.doublelinkedlist.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -130,6 +146,23 @@
       <option name="presentableId" value="Default" />
       <updated>1691276866305</updated>
     </task>
+    <task id="LOCAL-00001" summary="I Cover the concepts and implementation of BinarySearchTree, LinkedList, DoublyLinkedList.">
+      <option name="closed" value="true" />
+      <created>1691402437594</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1691402437600</updated>
+    </task>
+    <task id="LOCAL-00002" summary="I Cover the concepts and implementation of BinarySearchTree, LinkedList, DoublyLinkedList.">
+      <option name="closed" value="true" />
+      <created>1691402451491</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1691402451491</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -154,5 +187,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="I Cover the concepts and implementation of BinarySearchTree, LinkedList, DoublyLinkedList." />
+    <option name="LAST_COMMIT_MESSAGE" value="I Cover the concepts and implementation of BinarySearchTree, LinkedList, DoublyLinkedList." />
   </component>
 </project>
